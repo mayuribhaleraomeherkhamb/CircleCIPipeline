@@ -18,7 +18,7 @@ workflows:
             application-name: circleci-pipeline
             bundle-bucket: circleci-bucket-ex
             bundle-key: code/source
-            deployment-group: deployment
+            deployment-group: circleci-deployment
             service-role-arn: arn:aws:iam::650448798570:role/circleci-role 
             deployment-configuration: CodeDeployDefault.OneAtATime
             access-key-id: AKIAZO4OFANVOOSVSYEZ
