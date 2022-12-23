@@ -1,6 +1,6 @@
 orbs:
     # the name of the orb we are using
-    aws-code-deploy: circleci/aws-code-deploy@1.0.1
+    aws-code-deploy: circleci/aws-code-deploy@1.4.1
 # the version of the yml
 version: 2.1
 # Workflows are used to partition jobs
