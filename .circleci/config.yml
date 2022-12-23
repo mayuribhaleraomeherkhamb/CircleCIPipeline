@@ -19,5 +19,10 @@ workflows:
             bundle-bucket: circleci-bucket-ex
             bundle-key: code/source
             deployment-group: deployment
-            service-role-arn: arn:aws:iam::650448798570:role/circleci-role   
+            service-role-arn: arn:aws:iam::650448798570:role/circleci-role 
+            deployment-configuration: CodeDeployDefault.OneAtATime
+            access-key-id: AKIAZO4OFANVOOSVSYEZ
+            Secret-access-key: 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
+
+  
           
