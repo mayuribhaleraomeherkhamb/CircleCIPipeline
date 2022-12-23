@@ -15,11 +15,9 @@ workflows:
         # You can run more than one job
         # The job accepts the following parameters
         - aws-code-deploy/deploy:
-            APPLICATION_NAME: $APPLICATION_NAME
-            S3_BUCKET: $S3_BUCKET
-            AWS_DEFAULT_REGION: 'us-east-1'
-            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
-            ZIP_FILE: 'application.zip'
-            DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP    
+            application-name: circleci-pipeline
+            bundle-bucket: circleci-bucket-ex
+            bundle-key: code/source
+            deployment-group: deployment
+            service-role-arn: arn:aws:iam::650448798570:role/circleci-role   
           
