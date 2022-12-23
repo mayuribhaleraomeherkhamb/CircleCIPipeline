@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mayuribhaleraomeherkhamb/CircleCIPipeline/issues"
   },
-  "homepage": "https://github.com/mayuribhaleraomeherkhamb/CircleCIPipeline#readme"
+  "homepage": "https://github.com/mayuribhaleraomeherkhamb/CircleCIPipeline#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
